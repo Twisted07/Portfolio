@@ -1,0 +1,29 @@
+.sub-nav {
+    width: 100%;
+    background-color: rgb(184, 72, 91);
+    padding: 1rem 3rem;
+    border-radius: 5px;
+
+
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navBox {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    &__icon {
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1rem;
+    }
+
+    &__text {
+        color: $font-color;
+        font-size: $font-subheading;
+    }
+}

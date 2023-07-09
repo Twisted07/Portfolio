@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    /////// In order for the dimensions and values responsive,
+    /// we need to reset the font size to a percentage value so it is dependent
+    /// on the browser-set font size.
+
+    font-size: 62.5%;   //this resets the browser to a percentage correspondent of 16px
+}
+
+body {
+    box-sizing: border-box;
+    background-color: $color-primary;
+    width: 100%;
+    color: $font-color;
+    padding: 5rem;
+
+    //to be removed
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        display: inline-block;
+    }
+}

@@ -1,0 +1,52 @@
+.details {
+    flex: 1;
+    // height: 20rem;
+    background-color: orangered;
+    padding: 3rem;
+    border-radius: 5px;
+
+}
+
+.main {
+    margin-top: 5rem;
+    background-color: purple;
+    padding: 3rem;
+    border-radius: 5px;
+    
+    display: flex;
+    justify-content: space-between;
+
+
+    &__left {
+        margin: 3rem;
+        flex: 0 0 50%;
+    }
+
+    &__right {
+
+    }
+
+    &__header {
+        font-size: $font-superheading;
+        font-weight: 900;
+        margin-bottom: 3rem;
+        
+    }  
+
+    &__tagline {
+        font-size: $font-paragraph;
+        margin-bottom: 7rem;
+    }
+
+    &__link {
+        padding: 2rem 5rem;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+    }
+
+    &__photo {
+
+    }
+}
+

@@ -1,0 +1,6 @@
+@mixin borderbottom {
+    &:not(:last-child) {
+        margin-bottom: .5rem;
+        border-bottom: 1px solid $color-tertiary;
+    }
+}

@@ -1,0 +1,46 @@
+.grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+
+    // display: grid;
+    // grid-auto-flow: column;
+    // grid-auto-columns: 1fr;
+    // width: 100%;
+
+    &__heading {
+        display: block;
+        background-color: brown;
+        font-size: $font-subheading;
+        margin: .5rem 0;
+        margin-bottom: 3rem;
+    }
+
+    &__card {
+        padding: 2rem;
+        // width: 25rem;
+        flex: 0 0 30%;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin: 0 auto;
+
+        &--title {
+            font-size: $font-subheading;
+            margin-bottom: 3rem;
+        }
+
+        &--details {
+            font-size: $font-paragraph;
+            margin-bottom: 2rem;
+            min-width: 17rem;
+            line-height: 1.7;
+        }
+
+        &--button {
+            font-size: $font-paragraph;
+        }
+    }
+}
+
