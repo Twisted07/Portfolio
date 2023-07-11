@@ -7,7 +7,7 @@
 
   display: grid;
   grid-template-columns:
-    10% [start img-start] 30% [img-end text-start] minmax(min-content, 1fr)
+    10% [start img-start] 30vw [img-end text-start] minmax(min-content, 1fr)
     [text-end] 10% [end];
   gap: 2rem;
 
