@@ -35,6 +35,19 @@ body {
   background-color: transparent;
   border: none; }
 
+.button {
+  display: flex;
+  justify-content: center; }
+
+.btn-order {
+  padding: 3rem 7rem;
+  text-align: center;
+  background-color: blue;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  font-size: 1.5rem; }
+
 .grid {
   display: flex;
   justify-content: space-between;
