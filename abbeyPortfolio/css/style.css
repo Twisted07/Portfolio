@@ -258,6 +258,40 @@ body {
       margin-bottom: .5rem;
       border-bottom: 1px solid gray; }
 
+.container-about {
+  background-color: #03032e; }
+
+.about {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% [start img-start] 30% [img-end text-start] minmax(min-content, 1fr) [text-end] 10% [end];
+  gap: 2rem; }
+  .about__img {
+    grid-column: img-start / img-end; }
+  .about__texts {
+    grid-column: text-start / text-end;
+    display: grid;
+    grid-template-rows: repeat(5, min-content);
+    justify-content: start; }
+  .about__intro {
+    margin-top: 1rem; }
+  .about__list {
+    border: 1px solid #fff;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, min-content));
+    row-gap: 1rem;
+    margin-top: 1rem; }
+  .about__btn {
+    justify-self: start;
+    margin-top: 2rem;
+    background-color: palevioletred;
+    color: #000;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer; }
+
 .section-hero {
   width: 90vw;
   background-color: gray;
