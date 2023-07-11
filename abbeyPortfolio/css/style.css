@@ -31,6 +31,17 @@ body {
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana','sans-serif'; }
 
+.details__header {
+  margin-bottom: 2rem;
+  font-size: 1.5rem; }
+
+.details__paragraph {
+  font-size: 1.2rem;
+  margin-bottom: 3rem; }
+
+.details__link {
+  font-size: 1.2rem; }
+
 .btn {
   background-color: transparent;
   border: none; }
@@ -47,6 +58,14 @@ body {
   border-radius: 100px;
   color: white;
   font-size: 1.5rem; }
+
+.details__card {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #424141;
+  padding: 2rem 3rem; }
+  .details__card:not(:last-child) {
+    margin-bottom: 3rem; }
 
 .grid {
   display: flex;
@@ -127,6 +146,12 @@ body {
   .navBox__text {
     color: white;
     font-size: 1.5rem; }
+
+.nav__item {
+  padding: 2rem 3rem;
+  background-color: yellow; }
+  .nav__item:not(:last-child) {
+    margin-bottom: .5rem; }
 
 .nav {
   background-color: white;

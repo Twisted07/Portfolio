@@ -27,3 +27,23 @@
         font-size: $font-subheading;
     }
 }
+
+.nav {
+    &__list {
+
+    }
+
+    &__item {
+        padding: 2rem 3rem;
+        background-color: yellow;
+
+
+        &:not(:last-child) {
+            margin-bottom: .5rem;
+        }
+    }
+
+    &__link {
+
+    }
+}
