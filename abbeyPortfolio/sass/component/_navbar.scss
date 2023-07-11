@@ -35,15 +35,15 @@
 
     &__item {
         padding: 2rem 3rem;
-        background-color: yellow;
+        background-color: yellow;        
+    }
 
+    &__link {
+        display: block;
+        border-bottom: 3px solid blue;
 
         &:not(:last-child) {
             margin-bottom: .5rem;
         }
-    }
-
-    &__link {
-
     }
 }

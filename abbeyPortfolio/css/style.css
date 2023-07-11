@@ -150,7 +150,11 @@ body {
 .nav__item {
   padding: 2rem 3rem;
   background-color: yellow; }
-  .nav__item:not(:last-child) {
+
+.nav__link {
+  display: block;
+  border-bottom: 3px solid blue; }
+  .nav__link:not(:last-child) {
     margin-bottom: .5rem; }
 
 .nav {
