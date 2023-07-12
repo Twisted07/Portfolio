@@ -1,0 +1,10 @@
+.details__card {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(66, 65, 65);
+    padding: 2rem 3rem;
+    
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}

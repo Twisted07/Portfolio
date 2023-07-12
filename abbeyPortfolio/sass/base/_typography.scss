@@ -1,3 +1,21 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana','sans-serif';
 }
+
+.details {
+    &__header {
+        margin-bottom: 2rem;
+        font-size: $font-subheading;
+
+    }
+
+    &__paragraph {
+        font-size: $font-paragraph;
+        margin-bottom: 3rem;
+    }
+
+    &__link {
+        font-size: $font-paragraph;
+    }
+
+}
