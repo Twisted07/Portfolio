@@ -1,12 +1,16 @@
 .section-hero {
     // max-width: 120rem;
-    width: 90vw;
+    width: 100%;
     background-color: $color-tertiary;
 
     //Don't forget to remove
     // height: 70rem;
 
-    display: flex;
+    // display: inline-block;
     // align-items: center;
+
+    ///TEST THE FIXED ATTRIBUTE
+    /// 
+    position: relative;
 
 }
