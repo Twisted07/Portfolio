@@ -168,7 +168,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   border-radius: 5px; }
   .user__image {
     margin-bottom: 1rem;
@@ -179,7 +179,7 @@ body {
   .user__name {
     text-transform: uppercase;
     font-size: 1.5rem;
-    margin-bottom: .5rem; }
+    margin-bottom: 0.5rem; }
   .user__title {
     font-size: 1.2rem;
     color: #bbbbbb;
@@ -187,7 +187,7 @@ body {
 
 .rating {
   background-color: #6d333d;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 5px; }
   .rating__field {
     display: flex;
@@ -197,10 +197,10 @@ body {
       margin-bottom: .5rem;
       border-bottom: 1px solid gray; }
   .rating__text {
-    margin-bottom: .5rem;
-    padding: .5rem; }
+    margin-bottom: 0.5rem;
+    padding: 0.5rem; }
   .rating__score {
-    margin-bottom: .5rem; }
+    margin-bottom: 0.5rem; }
 
 .medals {
   background-color: #8b2222;
@@ -219,11 +219,11 @@ body {
 .language {
   background-color: red;
   font-size: 1.2rem;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 5px; }
   .language__header {
     color: black;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     font-size: 1.5rem; }
   .language__skills {
     padding: 1rem; }
@@ -288,16 +288,16 @@ body {
 .other {
   background-color: orange;
   font-size: 1.2rem;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 5px; }
   .other__header {
     color: black;
     font-size: 1.5rem;
-    margin-bottom: .5rem; }
+    margin-bottom: 0.5rem; }
   .other__skills {
     padding: 1rem; }
     .other__skills:not(:last-child) {
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
       border-bottom: 1px solid gray; }
 
 .container-about {
