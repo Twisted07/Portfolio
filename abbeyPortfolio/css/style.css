@@ -17,7 +17,7 @@ body {
   background-color: black;
   width: 100%;
   color: white;
-  padding: 5rem;
+  padding: 7rem;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -95,6 +95,14 @@ body {
       line-height: 1.7; }
     .grid__card--button {
       font-size: 1.2rem; }
+
+.back-arrow {
+  font-size: 3rem;
+  position: absolute;
+  top: 3rem;
+  left: 5rem; }
+  .back-arrow__link {
+    color: white; }
 
 .details {
   width: calc(100% - 25rem);
@@ -344,4 +352,4 @@ body {
 .section-hero {
   width: 100%;
   background-color: gray;
-  position: relative; }
+  display: flex; }
